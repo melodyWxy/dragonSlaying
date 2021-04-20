@@ -2,8 +2,8 @@
  * @Author: 六弦
  * @LastEditors: 六弦
  * @Date: 2021-04-19 18:02:17
- * @LastEditTime: 2021-04-20 16:15:15
- * @FilePath: /codeAll/pub/tukong/EOS/README.md
+ * @LastEditTime: 2021-04-20 17:47:38
+ * @FilePath: /eos-demo/Users/liuxian/codeAll/pub/tukong/EOS/README.md
 -->
 # EOS
 线上错误监控系统
@@ -19,7 +19,9 @@
 ```js
     // js error, 异步error 捕获
     window.addEventListener('error', (event) => {
-        // event.error; error对象 { massage, stack }
+        // event.error; error对象 { massage, stack }  
+        // 关键是event.error.stack一定要上报上去！
+        // report...
     })
     // 静态资源异常捕获
     HTMLImageElement.prototype.onerror = (event) => {
@@ -62,16 +64,17 @@
     const SourceMap = require('source-map');
 
     const { readFileSync } = fs;
-    const { SourceMapConsumer } = SourceMap;
 
     const rawSourceMap = JSON.parse(readFileSync('path/to/js/map/file', 'utf8'));
 
-    SourceMapConsumer.with(rawSourceMap, null, consumer => {
-    const pos = consumer.originalPositionFor({
+    // 真实报错的点在客户端error事件的event.error.stack中
+    const mockErrorMsg = {
         line: 1,
         column: 982
-    });
+    }
 
+    SourceMap.SourceMapConsumer.with(rawSourceMap, null, consumer => {
+    const pos = consumer.originalPositionFor(mockErrorMsg);
     console.log(pos);
     });
     /** 
