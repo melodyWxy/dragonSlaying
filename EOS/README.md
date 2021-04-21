@@ -2,7 +2,7 @@
  * @Author: 六弦
  * @LastEditors: 六弦
  * @Date: 2021-04-19 18:02:17
- * @LastEditTime: 2021-04-21 10:56:56
+ * @LastEditTime: 2021-04-21 11:10:17
  * @FilePath: /eos-demo/Users/liuxian/codeAll/pub/tukong/EOS/README.md
 -->
 # EOS
@@ -138,5 +138,9 @@ https://developers.dingtalk.com/document/app/custom-robot-access
 
 
 
+### 现有的傻瓜式成熟方案
+
+如果贵司用的阿里云产品，那么：
+https://help.aliyun.com/document_detail/102106.html
 
 
