@@ -2,7 +2,7 @@
  * @Author: 六弦
  * @LastEditors: 六弦
  * @Date: 2021-04-19 18:02:17
- * @LastEditTime: 2021-04-20 17:47:38
+ * @LastEditTime: 2021-04-21 10:46:30
  * @FilePath: /eos-demo/Users/liuxian/codeAll/pub/tukong/EOS/README.md
 -->
 # EOS
@@ -89,6 +89,46 @@
     ```
 
 
-### 开发者追踪 - git api
+### 开发者追踪 - git blame 
+
+>如果只查文件中某一部分由谁所写： git blame 文件名 | grep "查找词"
+
+
+```shell
+    git blame [文件名] -L  a,b
+```
++ -L 参数表示后面接的是行号(Line)， a,b代表查询文件的第a行到第b行之间的文件内容情况。
++ a: 代表从第a行到文件结尾,
++ b: 代表从文件开头到第b行。
+
+例如：
+```shell
+    git blame ./EOS/README.md -L  3,3
+```
+输出：a098d7cc (六弦 2021-04-19 18:07:35 +0800 3)  * @LastEditors: 六弦
+
+
+**node**
+```js
+    const shell = require('shelljs');
+    shell.exec('git blame ./EOS/README.md -L  3,3', function(_code, stdout, _stderr ){
+        console.log(stdout);
+    })
+    /**
+     *  输出：
+        * a098d7cc (六弦 2021-04-19 18:07:35 +0800 3)  * @LastEditors: 六弦
+        * 
+        **/
+```
+
+### 通知方式
+
+目前以创建钉钉群、企业微信群机器人的方式较多，通过调用群机器人的api，将报错内容，源码位置，及源码最后的开发者信息发给群中并 @对应开发者。
+这种方式的实现比较简单，直接上钉钉机器人官方文档示例： 
+
+https://developers.dingtalk.com/document/app/custom-robot-access
+
+
+
 
 
