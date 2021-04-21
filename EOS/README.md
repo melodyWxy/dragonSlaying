@@ -2,7 +2,7 @@
  * @Author: 六弦
  * @LastEditors: 六弦
  * @Date: 2021-04-19 18:02:17
- * @LastEditTime: 2021-04-21 10:46:30
+ * @LastEditTime: 2021-04-21 10:56:56
  * @FilePath: /eos-demo/Users/liuxian/codeAll/pub/tukong/EOS/README.md
 -->
 # EOS
@@ -12,6 +12,14 @@
 <img src="https://melodyworld.oss-cn-beijing.aliyuncs.com/tulongshu/EOS%E5%85%A8%E9%93%BE%E8%B7%AF%E5%9B%BE.jpg" width="800" height="600"/>
 
 
+如图所示，
+1. 客户端运行静态资源代码(HTML, JS)发生错误时，通过异常捕获后的回调，上报到服务端(一般都会上报到运维那边的日志服务台)；
+2. 然后服务端判断是ERROR类型，即可将其发送给EOS(也可以EOS主动获取)；
+3. EOS对错误信息进错误源映射追踪，从而找到错误发生的源码位置；通过拿到源码文件及行列，通过git追踪到对应的最后一个commit提交者，或称“肇事者”；
+4. EOS将错误源及时通知给"肇事者"。
+
+### 意义：
+第一时间发现并解决线上问题的根源，保障业务的稳定性。
 ## 核心代码
 
 ### 异常捕获
