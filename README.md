@@ -2,7 +2,7 @@
  * @Author: 六弦
  * @LastEditors: 六弦
  * @Date: 2021-04-19 17:56:51
- * @LastEditTime: 2021-04-21 16:26:50
+ * @LastEditTime: 2021-04-21 16:27:40
  * @FilePath: /eos-demo/Users/liuxian/codeAll/pub/tukong/README.md
 -->
 # dragonSlaying
@@ -17,11 +17,11 @@
 
 > 除此之外，屠龙术还将集成管理方面的一些方法论和策略。在项目中以 **M_** 开头
 
-    + 任务拆解
-    + 人效激励
-    + 项目追踪 
-    + 数据分析
-    + 项目复盘
++ 任务拆解
++ 人效激励
++ 项目追踪 
++ 数据分析
++ 项目复盘
 
 
 
