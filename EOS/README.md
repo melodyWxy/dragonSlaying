@@ -2,7 +2,7 @@
  * @Author: 六弦
  * @LastEditors: 六弦
  * @Date: 2021-04-19 18:02:17
- * @LastEditTime: 2021-04-27 14:42:14
+ * @LastEditTime: 2021-04-27 14:42:56
  * @FilePath: /training-liuxian-wang-test/Users/liuxian/codeAll/pub/tukong/EOS/README.md
 -->
 # EOS
@@ -138,7 +138,7 @@ https://developers.dingtalk.com/document/app/custom-robot-access
 
 
 ## 基于Sentry的EOS
-> 如果已经使用了Sentry，将减少埋点，源码追踪的过程
+> 如果已经使用了Sentry，将减少埋点，源码追踪的过程。 因为sentry已经做了这两件事。
 
 <img src="https://melodyworld.oss-cn-beijing.aliyuncs.com/headers/EOS_sentry.jpg" width="800" height="600"/>
 
