@@ -2,7 +2,7 @@
  * @Author: 六弦
  * @LastEditors: 六弦
  * @Date: 2021-04-19 18:02:17
- * @LastEditTime: 2021-05-15 16:53:06
+ * @LastEditTime: 2021-05-15 16:54:03
  * @FilePath: /tuya-check-server/Users/liuxian/codeAll/pub/tukong/EOS/README.md
 -->
 # EOS
@@ -151,7 +151,7 @@ https://developers.dingtalk.com/document/app/custom-robot-access
 
 
 ### 完整解决式方案
-<img src="https://melodyworld.oss-cn-beijing.aliyuncs.com/headers/eos-FINISH.jpg" width="1000" height="600">
+<img src="https://melodyworld.oss-cn-beijing.aliyuncs.com/headers/eos-FINISH.jpg" width="900" height="600">
 
 ## 现有的傻瓜式成熟方案
 
