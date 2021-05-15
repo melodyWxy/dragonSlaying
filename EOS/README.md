@@ -2,8 +2,8 @@
  * @Author: 六弦
  * @LastEditors: 六弦
  * @Date: 2021-04-19 18:02:17
- * @LastEditTime: 2021-04-27 14:42:56
- * @FilePath: /training-liuxian-wang-test/Users/liuxian/codeAll/pub/tukong/EOS/README.md
+ * @LastEditTime: 2021-05-15 16:37:53
+ * @FilePath: /tuya-check-server/Users/liuxian/codeAll/pub/tukong/EOS/README.md
 -->
 # EOS
 线上错误监控系统
@@ -142,6 +142,7 @@ https://developers.dingtalk.com/document/app/custom-robot-access
 
 <img src="https://melodyworld.oss-cn-beijing.aliyuncs.com/headers/EOS_sentry.jpg" width="800" height="600"/>
 
+
 ### 前置条件
 
 + sentry权限账号
@@ -149,7 +150,10 @@ https://developers.dingtalk.com/document/app/custom-robot-access
 + 开发者通讯录userId | 手机号
 
 
-### 现有的傻瓜式成熟方案
+### 完整解决式方案
+<img src="https://melodyworld.oss-cn-beijing.aliyuncs.com/headers/eos-FINISH.jpg" width="800" height="600">
+
+## 现有的傻瓜式成熟方案
 
 如果贵司用的阿里云产品，那么
 https://help.aliyun.com/document_detail/102106.html
