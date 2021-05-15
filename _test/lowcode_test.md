@@ -2,8 +2,8 @@
  * @Author: 六弦
  * @LastEditors: 六弦
  * @Date: 2021-05-15 17:57:13
- * @LastEditTime: 2021-05-15 18:11:46
- * @FilePath: /tuya-check-server/Users/liuxian/codeAll/pub/tukong/test.md
+ * @LastEditTime: 2021-05-15 18:21:36
+ * @FilePath: /tuya-check-server/Users/liuxian/codeAll/pub/tukong/_test/lowcode_test.md
 -->
 
 
@@ -44,7 +44,7 @@
         export default class extends React.Component {
             state={
                 formValue: {
-                    nickname: '嘻嘻'
+                    nickname: ''
                     password: ''
                 }
             }
@@ -64,7 +64,7 @@
                 const { formValue } = this.state;
                    return (
                         <Form>
-                            <Input type="normal" require label="昵称" key="nickname" value={formValue.nickname} onChange={this.changeFormValue('nickname')}/>
+                            <Input type="normal" require label="昵称" key="nickname" value={formValue.nickname} onChange={this.changeFormValue('nickname')} defaultValue="嘻嘻"/>
                             <Input type="ps"  label="密码" key="password" value={formValue.password} onChange={this.changeFormValue('password')}/>
                             <div className='btn-group'>
                                 <Button onClick={this.submit}>提交</Button>
