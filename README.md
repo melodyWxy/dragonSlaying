@@ -2,11 +2,11 @@
  * @Author: 六弦
  * @LastEditors: 六弦
  * @Date: 2021-04-19 17:56:51
- * @LastEditTime: 2021-05-17 15:57:06
+ * @LastEditTime: 2021-05-17 16:06:27
  * @FilePath: /tuya-check-server/Users/liuxian/codeAll/pub/tukong/README.md
 -->
 # dragonSlaying
-> 屠龙术
+> (大前端)屠龙术
 
 技术层次的精进无非有两个方向：
 
