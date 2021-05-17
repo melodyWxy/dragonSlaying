@@ -2,8 +2,8 @@
  * @Author: 六弦
  * @LastEditors: 六弦
  * @Date: 2021-04-19 17:56:51
- * @LastEditTime: 2021-04-21 16:28:45
- * @FilePath: /eos-demo/Users/liuxian/codeAll/pub/tukong/README.md
+ * @LastEditTime: 2021-05-17 15:57:06
+ * @FilePath: /tuya-check-server/Users/liuxian/codeAll/pub/tukong/README.md
 -->
 # dragonSlaying
 > 屠龙术
@@ -22,6 +22,16 @@
 + 项目追踪 
 + 数据分析
 + 项目复盘
+
+
+## 目录
+
++ [EOS: 线上质量保障！线上错误实时监控追踪服务！](https://github.com/melodyWxy/dragonSlaying/blob/main/EOS/README.md)
+
++ [BDG: 发布前的保障！构建门神检测服务！](https://github.com/melodyWxy/dragonSlaying/blob/main/BDG/README.md)
+
++ [LCP: 开发提效！低代码平台的核心设计与实现原理！](https://github.com/melodyWxy/dragonSlaying/blob/main/LCP/README.md)
+
 
 
 
