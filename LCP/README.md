@@ -2,7 +2,7 @@
  * @Author: 六弦
  * @LastEditors: 六弦
  * @Date: 2021-05-15 18:46:48
- * @LastEditTime: 2021-05-17 15:40:37
+ * @LastEditTime: 2021-05-17 15:44:41
  * @FilePath: /tuya-check-server/Users/liuxian/codeAll/pub/tukong/LCP/README.md
 -->
 
@@ -43,17 +43,17 @@ LCP基于面向业务场景的不同，可以具体化分为两大类：
 设计Scheme数据结构， 提供解析scheme的parse函数。
 如图：
 
-<img src="https://melodyworld.oss-cn-beijing.aliyuncs.com/headers/scheme2code1.jpg" width="700" height="500"/>
+<img src="https://melodyworld.oss-cn-beijing.aliyuncs.com/headers/scheme2code1.jpg" width="700" height="400"/>
 
 + 而LCP的客户端则提供了生成scheme的能力————无论拖拽/表单填写等只是交互方式罢了。 
 
-<img src="https://melodyworld.oss-cn-beijing.aliyuncs.com/headers/scheme2json2.jpg" width="700" height="500"/>
+<img src="https://melodyworld.oss-cn-beijing.aliyuncs.com/headers/scheme2json2.jpg" width="800" height="500"/>
 
 + scheme数据里对应的值枚举字段，则就是我们代码中所依赖的对应物料————因此物料是LCP代码运行的依赖。
 + 如果需要预览效果，只需内置一个工程化环境即可。
 如图：
 
-<img src="https://melodyworld.oss-cn-beijing.aliyuncs.com/headers/scheme2json3.jpg" width="700" height="500"/>
+<img src="https://melodyworld.oss-cn-beijing.aliyuncs.com/headers/scheme2json3.jpg" width="1000" height="750"/>
 
 +  当然，根据你的团队技术背景，还可以接入devops等。。
 
