@@ -2,11 +2,11 @@
  * @Author: 六弦
  * @LastEditors: 六弦
  * @Date: 2021-04-19 18:02:17
- * @LastEditTime: 2021-05-15 16:54:03
+ * @LastEditTime: 2021-05-17 17:36:31
  * @FilePath: /tuya-check-server/Users/liuxian/codeAll/pub/tukong/EOS/README.md
 -->
 # EOS
-线上错误监控系统
+线上错误监控系统————线上出错的第一时间，直接追踪到源码及对应的代码开发者，并进行通知。
 
 
 <img src="https://melodyworld.oss-cn-beijing.aliyuncs.com/tulongshu/EOS%E5%85%A8%E9%93%BE%E8%B7%AF%E5%9B%BE.jpg" width="800" height="600"/>
