@@ -2,7 +2,7 @@
  * @Author: 六弦
  * @LastEditors: 六弦
  * @Date: 2021-05-15 18:46:48
- * @LastEditTime: 2021-05-17 15:44:41
+ * @LastEditTime: 2021-05-17 15:46:19
  * @FilePath: /tuya-check-server/Users/liuxian/codeAll/pub/tukong/LCP/README.md
 -->
 
@@ -53,7 +53,7 @@ LCP基于面向业务场景的不同，可以具体化分为两大类：
 + 如果需要预览效果，只需内置一个工程化环境即可。
 如图：
 
-<img src="https://melodyworld.oss-cn-beijing.aliyuncs.com/headers/scheme2json3.jpg" width="1000" height="750"/>
+<img src="https://melodyworld.oss-cn-beijing.aliyuncs.com/headers/scheme2jsonr.jpg" width="1000" height="750"/>
 
 +  当然，根据你的团队技术背景，还可以接入devops等。。
 
