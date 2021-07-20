@@ -114,12 +114,20 @@ wxy@melodyWxydeMacBook-Pro dragonSlaying % melody update  @melody-core/leo
 检索完毕
 套件: @melody-core/leo 已是最新版本，version: 1.0.8
 
+wxy@melodyWxydeMacBook-Pro dragonSlaying % melody leo
+Usage: index [options] [command]
+
+Options:
+  -V, --version   output the version number
+  -v, --version   查看当前版本
+  -h, --help      display help for command
+
+Commands:
+  init            初始化一个项目模板
+  list            查看所有的项目模板
+  help [command]  display help for command
+
 ```
-
-
-
-
-
 
 
 

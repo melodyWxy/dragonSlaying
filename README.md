@@ -26,13 +26,16 @@
 
 ## 目录
 
-+ [EOS: 线上质量保障！线上错误实时监控追踪服务！](https://github.com/melodyWxy/dragonSlaying/tree/main/W_EOS)
++ W_前端解决方案屠龙术
+    + [EOS: 线上质量保障！线上错误实时监控追踪服务！](https://github.com/melodyWxy/dragonSlaying/tree/main/W_EOS)
 
-+ [BDG: 发布前的保障！构建门神检测服务！](https://github.com/melodyWxy/dragonSlaying/tree/main/W_BDG)
+    + [BDG: 发布前的保障！构建门神检测服务！](https://github.com/melodyWxy/dragonSlaying/tree/main/W_BDG)
 
-+ [LCP: 开发提效！低代码平台的核心设计与实现原理！](https://github.com/melodyWxy/dragonSlaying/tree/main/W_LCP)
+    + [LCP: 开发提效！低代码平台的核心设计与实现原理！](https://github.com/melodyWxy/dragonSlaying/tree/main/W_LCP)
 
-+ [UBC: 用户行为即用例，全自动化无代码全用例平台！！](https://github.com/melodyWxy/dragonSlaying/tree/main/W_UBC)
+    + [UBC: 用户行为即用例，全自动化无代码全用例平台！](https://github.com/melodyWxy/dragonSlaying/tree/main/W_UBC)
+
+    + [CMC: 命令行统一集成与管理工具!](https://github.com/melodyWxy/dragonSlaying/tree/main/W_CMC)
 
 
 
